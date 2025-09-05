@@ -1,6 +1,6 @@
 import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import mahiProfile from "@/assets/mahi-profile.png";
+import mahiProfile from "@/assets/mahi-profile-new.png";
 
 const HeroSection = () => {
   const scrollToPortfolio = () => {
@@ -81,12 +81,17 @@ const HeroSection = () => {
               <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-sand/40 rounded-full blur-2xl"></div>
               
               {/* Portrait */}
-              <div className="relative z-10 w-80 h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src={mahiProfile}
-                  alt="Mahi Gupta - Data Analyst and MCA Student"
-                  className="w-full h-full object-cover"
-                />
+              <div className="relative z-10 w-80 h-80 lg:w-96 lg:h-96 rounded-none overflow-hidden shadow-2xl">
+                <div className="w-full h-full bg-gradient-to-br from-accent/20 to-sand/30">
+                  <img
+                    src={mahiProfile}
+                    alt="Mahi Gupta - Data Analyst and MCA Student"
+                    className="w-full h-full object-cover mask-square"
+                    style={{
+                      clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+                    }}
+                  />
+                </div>
               </div>
               
               {/* Floating badge */}
