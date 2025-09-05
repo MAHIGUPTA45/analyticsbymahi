@@ -75,7 +75,7 @@ const HeroSection = () => {
 
           {/* Right Content - Portrait */}
           <div className="flex justify-center lg:justify-end animate-in slide-in-from-right duration-700">
-            <div className="relative">
+            <div className="relative mt-8">
               {/* Decorative elements */}
               <div className="absolute -top-4 -left-4 w-72 h-72 bg-accent/30 rounded-full blur-3xl"></div>
               <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-sand/40 rounded-full blur-2xl"></div>
