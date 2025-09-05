@@ -1,6 +1,6 @@
 import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import mahiPortrait from "@/assets/mahi-portrait.jpg";
+import mahiProfile from "@/assets/mahi-profile.png";
 
 const HeroSection = () => {
   const scrollToPortfolio = () => {
@@ -81,9 +81,9 @@ const HeroSection = () => {
               <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-sand/40 rounded-full blur-2xl"></div>
               
               {/* Portrait */}
-              <div className="relative z-10 w-80 h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden shadow-2xl">
+              <div className="relative z-10 w-80 h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src={mahiPortrait}
+                  src={mahiProfile}
                   alt="Mahi Gupta - Data Analyst and MCA Student"
                   className="w-full h-full object-cover"
                 />
