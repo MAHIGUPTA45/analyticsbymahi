@@ -85,7 +85,7 @@ const HeroSection = () => {
                 <img
                   src={mahiProfile}
                   alt="Mahi Gupta - Data Analyst and MCA Student"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               
