@@ -52,6 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Brown-toned palette
+				beige: 'hsl(var(--beige))',
+				sand: 'hsl(var(--sand))',
+				coffee: 'hsl(var(--coffee))',
+				mocha: 'hsl(var(--mocha))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
