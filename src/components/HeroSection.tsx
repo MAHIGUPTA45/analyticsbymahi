@@ -31,8 +31,8 @@ const HeroSection = () => {
               </h2>
               
               <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-                Transforming raw data into actionable insights through Python, SQL, Excel, and Power BI. 
-                Passionate about logical reasoning, analytics, and continuous learning.
+                Turning complex datasets into meaningful stories with Python, SQL, Excel, and Power BI. 
+                Driven by curiosity, precision, and a love for solving problems.
               </p>
             </div>
 
