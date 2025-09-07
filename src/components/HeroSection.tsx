@@ -27,7 +27,7 @@ const HeroSection = () => {
               </h1>
               
               <h2 className="text-xl md:text-2xl text-primary font-medium">
-                MCA Student | Data Analyst | Problem Solver
+                Data Analyst | Insight Creator
               </h2>
               
               <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
