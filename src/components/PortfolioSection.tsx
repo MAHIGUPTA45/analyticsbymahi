@@ -1,9 +1,13 @@
-import { ExternalLink, Github, BarChart3, Smartphone, Globe, FileText } from "lucide-react";
+import { ExternalLink, Github, BarChart3, Smartphone, Globe, FileText, X } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { useState } from "react";
+import iphoneDashboard from "@/assets/iphone-sales-dashboard.png";
 
 const PortfolioSection = () => {
+  const [showDashboard, setShowDashboard] = useState(false);
   const projects = [
     {
       icon: Smartphone,
@@ -156,14 +160,37 @@ const PortfolioSection = () => {
                       <Github className="h-4 w-4 mr-2" />
                       Code
                     </Button>
-                    <Button 
-                      size="sm"
-                      className="flex-1 bg-primary hover:bg-coffee text-primary-foreground transition-all duration-200"
-                      onClick={() => window.open(project.liveUrl, '_blank')}
-                    >
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      View Project
-                    </Button>
+                    {project.title === "iPhone Sales Data Analysis" ? (
+                      <Dialog open={showDashboard} onOpenChange={setShowDashboard}>
+                        <DialogTrigger asChild>
+                          <Button 
+                            size="sm"
+                            className="flex-1 bg-primary hover:bg-coffee text-primary-foreground transition-all duration-200"
+                          >
+                            <ExternalLink className="h-4 w-4 mr-2" />
+                            View Project
+                          </Button>
+                        </DialogTrigger>
+                        <DialogContent className="max-w-4xl w-[90vw] h-[80vh] p-0">
+                          <div className="relative w-full h-full">
+                            <img
+                              src={iphoneDashboard}
+                              alt="iPhone Sales Analysis Dashboard"
+                              className="w-full h-full object-contain"
+                            />
+                          </div>
+                        </DialogContent>
+                      </Dialog>
+                    ) : (
+                      <Button 
+                        size="sm"
+                        className="flex-1 bg-primary hover:bg-coffee text-primary-foreground transition-all duration-200"
+                        onClick={() => window.open(project.liveUrl, '_blank')}
+                      >
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        View Project
+                      </Button>
+                    )}
                   </div>
                 </CardContent>
               </Card>
