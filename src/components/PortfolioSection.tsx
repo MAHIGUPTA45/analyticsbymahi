@@ -42,19 +42,19 @@ const PortfolioSection = () => {
       ]
     },
     {
-      icon: Globe,
-      title: "Personal Portfolio Website",
-      description: "Responsive portfolio website showcasing technical skills and projects. Built with modern web technologies and optimized for performance.",
-      technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      metrics: "100% Mobile Responsive",
-      category: "Web Development",
+      icon: BarChart3,
+      title: "Vendor Performance Analysis",
+      description: "Comprehensive vendor performance evaluation system analyzing delivery metrics, quality scores, and cost efficiency to optimize supply chain operations and vendor relationships.",
+      technologies: ["Python", "SQL", "Power BI", "Pandas", "Excel"],
+      metrics: "30% Cost Reduction Achieved",
+      category: "Business Intelligence",
       githubUrl: "https://github.com/MAHIGUPTA45",
       liveUrl: "#",
       highlights: [
-        "Modern UI/UX design",
-        "Cross-browser compatibility",
-        "SEO optimization",
-        "Performance optimization"
+        "Multi-dimensional vendor scoring system",
+        "Automated performance dashboards",
+        "Cost optimization recommendations",
+        "Risk assessment and mitigation strategies"
       ]
     },
     {
