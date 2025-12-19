@@ -53,19 +53,19 @@ const AboutSection = () => {
               <h3 className="font-semibold text-foreground mb-4">Academic Highlights</h3>
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">Current CGPA</span>
-                  <span className="font-medium text-primary">8.55</span>
+                  <span className="text-sm text-muted-foreground">MCA CGPA</span>
+                  <span className="font-medium text-primary">8.11 / 10 (till date)</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">Current CGPA</span>
-                  <span className="font-medium text-primary">8.11</span>
+                  <span className="text-sm text-muted-foreground">UG CGPA</span>
+                  <span className="font-medium text-primary">8.55 / 10 (B.Sc. Mathematics)</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-sm text-muted-foreground">Degree</span>
                   <span className="font-medium text-primary">MCA</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">Graduation</span>
+                  <span className="text-sm text-muted-foreground">Post-Graduation</span>
                   <span className="font-medium text-primary">2026</span>
                 </div>
               </div>
