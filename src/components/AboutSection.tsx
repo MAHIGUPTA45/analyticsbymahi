@@ -49,31 +49,31 @@ const AboutSection = () => {
               </p>
             </div>
             
-            <div className="bg-card border border-sand rounded-2xl p-6 shadow-lg">
+            <div className="bg-card border border-sand rounded-2xl p-6 shadow-lg min-w-[320px]">
               <h3 className="font-semibold text-foreground mb-5 text-lg">Academic Highlights</h3>
-              <div className="space-y-4">
+              <div className="space-y-4" style={{ display: 'grid', gap: '1rem' }}>
                 {/* MCA CGPA */}
-                <div className="grid grid-cols-[40%_60%] items-baseline">
+                <div style={{ display: 'grid', gridTemplateColumns: '45% 55%', alignItems: 'baseline' }}>
                   <span className="text-sm text-muted-foreground">MCA CGPA</span>
-                  <span className="text-right whitespace-nowrap">
+                  <span style={{ textAlign: 'right', whiteSpace: 'nowrap' }}>
                     <span className="font-bold text-primary text-lg">8.11 / 10</span>
                     <span className="text-xs text-muted-foreground/70 ml-1.5">(till date)</span>
                   </span>
                 </div>
                 
                 {/* Undergraduate CGPA */}
-                <div className="grid grid-cols-[40%_60%] items-baseline">
+                <div style={{ display: 'grid', gridTemplateColumns: '45% 55%', alignItems: 'baseline' }}>
                   <span className="text-sm text-muted-foreground">Undergraduate CGPA</span>
-                  <span className="text-right whitespace-nowrap">
+                  <span style={{ textAlign: 'right', whiteSpace: 'nowrap' }}>
                     <span className="font-bold text-primary text-lg">8.55 / 10</span>
                     <span className="text-xs text-muted-foreground/70 ml-1.5">(B.Sc. Mathematics)</span>
                   </span>
                 </div>
                 
                 {/* Post-Graduation Year */}
-                <div className="grid grid-cols-[40%_60%] items-baseline">
+                <div style={{ display: 'grid', gridTemplateColumns: '45% 55%', alignItems: 'baseline' }}>
                   <span className="text-sm text-muted-foreground">Post-Graduation Year</span>
-                  <span className="font-bold text-primary text-lg text-right">2026</span>
+                  <span className="font-bold text-primary text-lg" style={{ textAlign: 'right', whiteSpace: 'nowrap' }}>2026</span>
                 </div>
               </div>
             </div>
