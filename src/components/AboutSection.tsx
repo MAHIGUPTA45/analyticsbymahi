@@ -50,23 +50,30 @@ const AboutSection = () => {
             </div>
             
             <div className="bg-card border border-sand rounded-2xl p-6 shadow-lg">
-              <h3 className="font-semibold text-foreground mb-4">Academic Highlights</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">MCA CGPA</span>
-                  <span className="font-medium text-primary">8.11 / 10 (till date)</span>
+              <h3 className="font-semibold text-foreground mb-5 text-lg">Academic Highlights</h3>
+              <div className="space-y-4">
+                {/* MCA CGPA */}
+                <div className="flex justify-between items-baseline gap-4">
+                  <span className="text-sm text-muted-foreground whitespace-nowrap">MCA CGPA</span>
+                  <div className="text-right">
+                    <span className="font-bold text-primary text-lg">8.11 / 10</span>
+                    <span className="text-xs text-muted-foreground ml-1">(till date)</span>
+                  </div>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">UG CGPA</span>
-                  <span className="font-medium text-primary">8.55 / 10 (B.Sc. Mathematics)</span>
+                
+                {/* Undergraduate CGPA */}
+                <div className="flex justify-between items-baseline gap-4">
+                  <span className="text-sm text-muted-foreground whitespace-nowrap">Undergraduate CGPA</span>
+                  <div className="text-right">
+                    <span className="font-bold text-primary text-lg">8.55 / 10</span>
+                    <span className="text-xs text-muted-foreground ml-1 block sm:inline">(B.Sc. Mathematics)</span>
+                  </div>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">Degree</span>
-                  <span className="font-medium text-primary">MCA</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">Post-Graduation</span>
-                  <span className="font-medium text-primary">2026</span>
+                
+                {/* Post-Graduation Year */}
+                <div className="flex justify-between items-baseline gap-4">
+                  <span className="text-sm text-muted-foreground whitespace-nowrap">Post-Graduation Year</span>
+                  <span className="font-bold text-primary text-lg text-right">2026</span>
                 </div>
               </div>
             </div>
