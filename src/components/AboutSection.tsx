@@ -57,8 +57,8 @@ const AboutSection = () => {
                   <span className="font-medium text-primary">8.55</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">Current SGPA</span>
-                  <span className="font-medium text-primary">8.39</span>
+                  <span className="text-sm text-muted-foreground">Current CGPA</span>
+                  <span className="font-medium text-primary">8.11</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-sm text-muted-foreground">Degree</span>
