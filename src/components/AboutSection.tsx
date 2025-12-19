@@ -64,10 +64,10 @@ const AboutSection = () => {
                 {/* Undergraduate CGPA */}
                 <div style={{ display: 'grid', gridTemplateColumns: '45% 55%', alignItems: 'baseline' }}>
                   <span className="text-sm text-muted-foreground">Undergraduate CGPA</span>
-                  <span style={{ textAlign: 'right', whiteSpace: 'nowrap' }}>
-                    <span className="font-bold text-primary text-lg">8.55 / 10</span>
-                    <span className="text-xs text-muted-foreground/70 ml-1.5">(B.Sc. Mathematics)</span>
-                  </span>
+                  <div style={{ textAlign: 'right' }}>
+                    <span className="font-bold text-primary text-lg block">8.55 / 10</span>
+                    <span className="text-xs text-muted-foreground/70 block">(B.Sc. Mathematics)</span>
+                  </div>
                 </div>
                 
                 {/* Post-Graduation Year */}
