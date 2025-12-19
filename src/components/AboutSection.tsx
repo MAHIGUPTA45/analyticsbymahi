@@ -53,26 +53,26 @@ const AboutSection = () => {
               <h3 className="font-semibold text-foreground mb-5 text-lg">Academic Highlights</h3>
               <div className="space-y-4">
                 {/* MCA CGPA */}
-                <div className="flex justify-between items-baseline gap-4">
-                  <span className="text-sm text-muted-foreground whitespace-nowrap">MCA CGPA</span>
-                  <div className="text-right">
+                <div className="grid grid-cols-[40%_60%] items-baseline">
+                  <span className="text-sm text-muted-foreground">MCA CGPA</span>
+                  <span className="text-right whitespace-nowrap">
                     <span className="font-bold text-primary text-lg">8.11 / 10</span>
-                    <span className="text-xs text-muted-foreground ml-1">(till date)</span>
-                  </div>
+                    <span className="text-xs text-muted-foreground/70 ml-1.5">(till date)</span>
+                  </span>
                 </div>
                 
                 {/* Undergraduate CGPA */}
-                <div className="flex justify-between items-baseline gap-4">
-                  <span className="text-sm text-muted-foreground whitespace-nowrap">Undergraduate CGPA</span>
-                  <div className="text-right">
+                <div className="grid grid-cols-[40%_60%] items-baseline">
+                  <span className="text-sm text-muted-foreground">Undergraduate CGPA</span>
+                  <span className="text-right whitespace-nowrap">
                     <span className="font-bold text-primary text-lg">8.55 / 10</span>
-                    <span className="text-xs text-muted-foreground ml-1 block sm:inline">(B.Sc. Mathematics)</span>
-                  </div>
+                    <span className="text-xs text-muted-foreground/70 ml-1.5">(B.Sc. Mathematics)</span>
+                  </span>
                 </div>
                 
                 {/* Post-Graduation Year */}
-                <div className="flex justify-between items-baseline gap-4">
-                  <span className="text-sm text-muted-foreground whitespace-nowrap">Post-Graduation Year</span>
+                <div className="grid grid-cols-[40%_60%] items-baseline">
+                  <span className="text-sm text-muted-foreground">Post-Graduation Year</span>
                   <span className="font-bold text-primary text-lg text-right">2026</span>
                 </div>
               </div>
